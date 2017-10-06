@@ -1,0 +1,46 @@
+certain codes to use when searching
+
+\d - numbers [0-9]
+\D - match anything that i not [0-9]
+\w - [a - z] [0 - 9] and underscores [_]
+\W - anything that is not \w
+\s - sapce or whitespace
+\S - anything not \s
+\b - word boundary
+\B - not \b 
+
+Delimeters
+
+beginning and end of what u looking for example{"%melissa%"};
+
+others:
+
+# #
+/ /
+% %
+& &
+~ ~
+" "
+
+* - this simply say sthat u wanna find 0 or more of what preceeds the \ character
+$ - define the end of the string[string has ended]
+^[carrot symbo] - tells u this is where it [beginning]
+. - represents anything but a newline
++ - means that it must atleast have one of the things that are in the []
+
+Specific characters that need backslash[\] and single quotes ' '
+
+$
+#
+.
+^
+* 
+{}
+[]
+\
+|
+()
+
+____________________________________________________________________________________________________
+
+

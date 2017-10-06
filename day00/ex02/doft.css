@@ -1,0 +1,166 @@
+
+body {
+    background-color: #505050;
+    margin: 18px 0 0 8px;
+}
+
+.bigcontainer
+{
+    margin: 0 auto;
+    width: 1420px;
+}
+
+.topcontainer
+{
+    background-color: #909090;
+    width: 1420px;
+    height: 137px;
+    position: relative;
+    border-radius: 11px;
+}
+
+.shade
+{
+    box-shadow: 10px 10px 15px black;
+}
+
+.left{
+    background-color: #909090;
+    width: 108px;
+    height: 410px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 32px;
+    border-radius: 11px;
+}
+
+.middle
+{
+    background-color: #909090;
+    margin: 20px 0 0 30px;
+    width: 1020px;
+    height: 582px;
+    float: left;
+    position: relative;
+    border-radius: 11px;
+}
+
+.right
+{
+    background-color: #909090;
+    width: 108px;
+    height: 410px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 35px;
+    border-radius: 11px;
+}
+
+.left img
+{
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.right img {
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.greencontainer
+{
+    background-color: #88ff89;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    bottom: 150px;
+    left: 200px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 16px;
+    font-stretch: expanded !important;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 11px;
+}
+
+.wall
+{
+    width: 120px;
+    height: 70px;
+    background-image: url("./resources/brick.jpg");
+    margin:-5px 0 0 -23px;
+}
+
+.area
+{
+    background-color: #92E1F7;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.reload
+{
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+.close
+{
+    position: absolute;
+    top: 110px;
+    right: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+.logo
+{
+    height: 110px;
+    margin: 10px 0 0 10px;
+}
+
+.search
+{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.shaded
+{
+    border: 5px solid red;
+    margin: -5px 0 1px -5px;
+    border-radius: 5px;
+}
+
+.cluster
+{
+    margin: 10px;
+    width: 1000px;
+    height: 562px;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.bar
+{
+    width: 80%;
+}
+
+.submit
+{
+    width: 15%
+}
+
+.shadow
+{
+    text-shadow: 5px 5px 5px #ff0000;
+}
